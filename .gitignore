@@ -1,0 +1,53 @@
+# Global
+.env
+*.log
+*.DS_Store
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+
+# Python
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+coverage/
+
+# React (Vite/CRA)
+*.local
+*.cache
+*.parcel-cache
+
+# Python environment/config
+*.sqlite3
+*.db
+*.pkl
+*.pt
+*.ckpt
+
+# Docker
+*.pid
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Jupyter Notebooks (optional if using notebooks)
+.ipynb_checkpoints
+
+# OS specific
+Thumbs.db
+
+# PostgreSQL dumps
+*.sql
+
+# Hugging Face cache/models
+~/.cache/huggingface/
