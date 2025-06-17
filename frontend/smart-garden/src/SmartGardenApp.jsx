@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Camera, Upload, Droplets, Sun, Trash2, Plus, Leaf } from 'lucide-react';
-
+import 'tailwindcss/tailwind.css';
 const SmartGardenApp = () => {
   const [plants, setPlants] = useState([]);
   const [isUploading, setIsUploading] = useState(false);
